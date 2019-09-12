@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 ###! optional:save it under /bin/
 ###! use it for subdomains only which has wildcard enabled.
-###! USE1 → wildsubcheck single/list sagsagsagsag.cluster.gitlab.com 300
-###! USE2  → wildsubcheck list subdomains.lst 100
 ####! Use it only after filter-resolving the results.
 import sys,requests,threading,queue,os
 import urllib3
