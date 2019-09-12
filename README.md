@@ -8,6 +8,7 @@ wildsubcheck [SCAN_TYPE] [SUBDOMAIN/SUBDOMAIN_LIST] OFFSET
 
 * Offset is the value which compare list of response lengths `max_wildcard_len - sub_wildcard_len <= OFFSET` 
 * Keep the offset value somewhere btw 70 to 120, it may depends of different domains.
+* Optional: adjust the `timeout` value accordingly, More it will the more time it takes.
 
 # USAGE:
 
