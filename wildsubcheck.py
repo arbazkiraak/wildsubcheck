@@ -50,7 +50,7 @@ def ProcessQueue():
         q.task_done()
 
 if scan_type == 'list':
-    with open(os.getcwd()+"/"+domain,'r') as f:
+    with open(domain,'r') as f:
         for i in f.readlines():
             i = i.strip()
             if i.count('.') > 1:
